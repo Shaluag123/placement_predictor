@@ -1,26 +1,17 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
-const Student = require("../models/Student");
+const {
+  registerStudent,
+  loginStudent,
+  getStudentProfile
+} = require('../controllers/studentController');
+const verifyToken = require('../middleware/authMiddleware');
 
-// POST: Save Student Data
-router.post("/", async (req, res) => {
-    try {
-        const student = new Student(req.body);
-        await student.save();
-        res.status(201).json(student);
-    } catch (error) {
-        res.status(500).json({ error: "Error saving student data" });
-    }
-});
+// Public
+router.post('/register', registerStudent);
+router.post('/login', loginStudent);
 
-// GET: Fetch all Students
-router.get("/", async (req, res) => {
-    try {
-        const students = await Student.find();
-        res.json(students);
-    } catch (error) {
-        res.status(500).json({ error: "Error fetching students" });
-    }
-});
+// Protected
+router.get('/me', verifyToken, getStudentProfile);
 
 module.exports = router;
