@@ -1,0 +1,21 @@
+Percentage_10th,Percentage_12th,Percentage_Grad,Stream,College_Tier,Internship,Certifications,Projects,Skills,TestScore,Placed
+85,82,75,CSE,Tier 1,Yes,2,2,Python,85,1
+78,75,70,ECE,Tier 2,No,0,1,Java,60,0
+88,85,82,IT,Tier 2,Yes,3,3,Python,92,1
+70,65,60,ME,Tier 3,No,0,1,C++,55,0
+92,89,90,CSE,Tier 1,Yes,4,4,Python,96,1
+80,78,77,IT,Tier 2,Yes,2,2,Java,75,1
+76,74,68,CSE,Tier 2,No,1,1,Python,68,0
+83,80,74,ME,Tier 3,Yes,3,3,React,82,1
+69,66,58,ECE,Tier 3,No,0,1,C++,57,0
+74,70,66,IT,Tier 2,No,1,2,DSA,65,0
+88,86,84,CSE,Tier 1,Yes,3,3,Java,90,1
+67,64,62,ECE,Tier 3,No,0,1,Python,62,0
+90,88,85,CSE,Tier 1,Yes,4,4,React,95,1
+72,69,67,ME,Tier 3,No,0,1,C++,60,0
+84,82,80,IT,Tier 2,Yes,2,2,DSA,88,1
+66,63,61,CSE,Tier 3,No,0,1,Java,59,0
+79,76,73,ECE,Tier 2,Yes,2,2,Python,73,1
+82,79,78,IT,Tier 2,Yes,3,3,React,85,1
+68,65,64,ME,Tier 3,No,0,1,C++,63,0
+75,71,72,CSE,Tier 1,Yes,2,2,DSA,78,1
